@@ -1,13 +1,351 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.Farbverlauf {
+  position: absolute;
+  width: 100%;
+  height: 1888px;
+  top: 656px;
+  z-index: -1;
+
+  background: linear-gradient(180deg, #235789 0%, #af4d98 100%);
+}
+
+.Text11 {
+  position: absolute;
+  width: 469px;
+  height: 468px;
+  left: 119px;
+  top: 270px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 85px;
+
+  color: #000000;
+}
+.Text12 {
+  position: relative;
+  width: 574px;
+  height: 77px;
+  margin-right: 91px;
+  margin-top: 650px;
+  float: right;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #ffffff;
+}
+
+.Text13 {
+  position: relative;
+  width: 100%;
+  height: 263px;
+  margin-right: 91px;
+  margin-top: 30px;
+  float: right;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: right;
+
+  color: #ffffff;
+}
+
+.Text14 {
+  position: absolute;
+  width: 778px;
+  height: 77px;
+  left: 119px;
+  top: 1108px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #ffffff;
+}
+
+.Text15 {
+  position: absolute;
+  width: 445px;
+  height: 302px;
+  left: 189px;
+  top: 1228px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+
+  color: #ffffff;
+}
+
+.Text16 {
+  position: relative;
+  width: 100%;
+  height: 77px;
+  margin-right: 91px;
+  margin-top: 450px;
+  float: right;
+  text-align: right;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #ffffff;
+}
+
+.Text17 {
+  position: relative;
+  width: 997px;
+  height: 263px;
+  margin-top: 72px;
+  margin-right: 91px;
+  float: right;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: right;
+
+  color: #ffffff;
+}
+
+.Text18 {
+  position: absolute;
+  width: 290px;
+  height: 77px;
+  left: 79px;
+  top: 1949px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #ffffff;
+}
+
+.Text19 {
+  position: absolute;
+  width: 915px;
+  height: 395px;
+  left: 79px;
+  top: 2076px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #ffffff;
+}
+
+.Text120 {
+  position: absolute;
+  width: 514px;
+  height: 77px;
+  left: calc(50% - 514px / 2 - 23px);
+  top: 2670px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #000000;
+}
+
+.Text121 {
+  position: absolute;
+  width: 434px;
+  height: 77px;
+  left: 79px;
+  top: 3237px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #000000;
+}
+
+.Text122 {
+  position: absolute;
+  width: 319px;
+  height: 58px;
+  left: 79px;
+  top: 4025px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.Text123 {
+  position: absolute;
+  width: 349px;
+  height: 29px;
+  left: 79px;
+  top: 4092px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+.Text124 {
+  position: absolute;
+  width: 263px;
+  height: 58px;
+  left: 606px;
+  top: 4025px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.Text125 {
+  position: absolute;
+  width: 215px;
+  height: 89px;
+  left: 606px;
+  top: 4098px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.Text126 {
+  position: absolute;
+  width: 301px;
+  height: 58px;
+  left: 1078px;
+  top: 4025px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.Text127 {
+  position: absolute;
+  width: 144px;
+  height: 29px;
+  left: 1086px;
+  top: 4098px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 282px;
+  left: 0px;
+  top: 3980px;
+  background: #d9d9d9;
+}
+
+.FooterUeberschriften {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  /* identical to box height */
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.FooterText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+  text-decoration-line: underline;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+
+.FooterInhalt {
+  padding: 20px;
+  margin-right: 90px;
+  width: 350px;
 }
