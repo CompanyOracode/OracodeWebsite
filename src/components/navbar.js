@@ -83,7 +83,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Disclosure.Panel className="block w-full fixed z-50 bg-opacity-50">
+          <Disclosure.Panel className="block w-full absolute z-50 bg-opacity-50">
             <div className="space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
                 <Disclosure.Button
