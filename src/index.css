@@ -147,9 +147,9 @@ code {
 
 .Text18 {
   position: absolute;
-  width: 290px;
+  width: 100%;
   height: 77px;
-  left: 79px;
+  left: 119px;
   top: 1949px;
 
   font-family: "Inter";
@@ -163,9 +163,9 @@ code {
 
 .Text19 {
   position: absolute;
-  width: 915px;
+  width: 100%;
   height: 395px;
-  left: 79px;
+  left: 119px;
   top: 2076px;
 
   font-family: "Inter";
@@ -351,138 +351,133 @@ code {
 }
 
 .Logos {
- position: absolute;
- width: 100%;
- top: 2838px;
- flex-wrap: wrap;
+  position: absolute;
+  width: 100%;
+  top: 2838px;
+  flex-wrap: wrap;
 
-
- display: flex;
- justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .JSLogo {
-position: relative;
-width: 200px;
-height: 200px;
-margin-left: 81px;
-display: flex;
-align-items: center;
-justify-content: center;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-left: 81px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-background: #EAC02C;
-border-radius: 30px;
+  background: #eac02c;
+  border-radius: 30px;
 }
 
 .JSLogoText {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 77px;
-text-align: center;
-
-
-
-color: #000000;
-
-}
-
-.CSSLogo {
-  position: relative;
-width: 200px;
-height: 200px;
-display: flex;
-align-items: center;
-justify-content: center;
-
-background: linear-gradient(270deg, #3D99EE 0%, #174B7B 100%);
-border-radius: 30px;
-
-}
-
-.CSSLogoText {
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 77px;
-text-align: center;
-
-color: #000000;
-
-}
-
-.HtmlLogo {
-  position: relative;
-width: 200px;
-height: 200px;
-display: flex;
-align-items: center;
-justify-content: center;
-
-background: linear-gradient(270deg, #D85F2B 0%, #B46A4A 0.01%, #EB7C4C 0.02%, #B04111 100%);
-border-radius: 30px;
-
-}
-
-.HtmlLogoText {
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 77px;
-text-align: center;
-
-color: #000000;
-
-}
-
-.PyLogo {
-  position: relative;
-width: 200px;
-height: 200px;
-display: flex;
-align-items: center;
-justify-content: center;
-
-background: linear-gradient(316.06deg, #EAC02C 25.21%, #3D99EE 79.23%);
-border-radius: 30px;
-
-}
-
-.PyLogoText {
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 77px;
-text-align: center;
-
-color: #000000;
-}
-
-.CLogo {
-  position: relative;
-width: 200px;
-height: 200px;
-margin-right: 91px;
-background: #9741BF;
-border-radius: 30px;
-display: flex;
-align-items: center;
-justify-content: center;
-
-}
-
-.CLogoText {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   line-height: 77px;
   text-align: center;
-  
-  color: #000000;
-  }
 
+  color: #000000;
+}
+
+.CSSLogo {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(270deg, #3d99ee 0%, #174b7b 100%);
+  border-radius: 30px;
+}
+
+.CSSLogoText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.HtmlLogo {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(
+    270deg,
+    #d85f2b 0%,
+    #b46a4a 0.01%,
+    #eb7c4c 0.02%,
+    #b04111 100%
+  );
+  border-radius: 30px;
+}
+
+.HtmlLogoText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.PyLogo {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(316.06deg, #eac02c 25.21%, #3d99ee 79.23%);
+  border-radius: 30px;
+}
+
+.PyLogoText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.CLogo {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-right: 91px;
+  background: #9741bf;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CLogoText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+
+  color: #000000;
+}
