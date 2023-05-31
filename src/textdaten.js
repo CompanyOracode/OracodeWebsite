@@ -10,7 +10,7 @@ export const deutschText = [
   {
     id: 13,
     text: [
-      "Unsere Ziel ist es Design und Softwaerin",
+      "Unsere Ziel ist es Design und Software in",
       <br />,
       "Harmonie zu bringen",
     ],
@@ -41,7 +41,7 @@ export const deutschText = [
       <br />,
       "welches Weisheit und Wissen symbolisiert",
       <br />,
-      'und "Code" für Programmierenzusammen',
+      'und "Code" für Programmieren zusammen',
       <br />,
       "zusammen",
     ],
@@ -80,4 +80,74 @@ export const deutschText = [
   },
 ];
 
-const englishText = [{}, {}, {}, {}];
+export const englishText = [
+  {
+    id: 11,
+    text: ["We build your new appearance on the internet"],
+  },
+  {
+    id: 12,
+    text: "Company philosophy",
+  },
+  {
+    id: 13,
+    text: ["Our goal is to bring design and software", <br />, "into harmony."],
+  },
+  {
+    id: 14,
+    text: "Our services",
+  },
+  {
+    id: 15,
+    text: [
+      <ul>
+        <li Style="list-style-type: disc"> Graphic design</li>
+        <li Style="list-style-type: disc">Web-Design</li>
+        <li Style="list-style-type: disc">Web-Development</li>
+        <li Style="list-style-type: disc">Web-Hosting</li>
+      </ul>,
+    ],
+  },
+  {
+    id: 16,
+    text: "Why Oracode?",
+  },
+  {
+    id: 17,
+    text: [
+      'The name Oracode is composed of "Ora" from Oracle',
+      <br />,
+      " which symbolises wisdom and knowledge,",
+      <br />,
+      'and "code" for programming',
+    ],
+  },
+  {
+    id: 18,
+    text: "About Us",
+  },
+  {
+    id: 19,
+    text: [
+      "We are Tom and Luke, the founders of Oracode.",
+      <br />,
+      "Our mission is to connect design and software in harmony.",
+      <br />,
+      "With our passion for technology,",
+      <br />,
+      "we develop innovative solutions that are both functional",
+      <br />,
+      "and aesthetically pleasing.",
+      <br />,
+      "Let us turn your vision into reality together.",
+    ],
+  },
+  {
+    id: 120,
+    text: "We work with",
+  },
+  {
+    id: 121,
+    text: "Our work",
+  },
+];

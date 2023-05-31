@@ -1,23 +1,153 @@
-import { Carousel } from "@material-tailwind/react";
+import React from "react";
+import InfiniteCarousel from "react-leaf-carousel";
 
-export default function CarouselDiv() {
-  return (
-    <Carousel className="rounded-xl">
+const CarouselDiv = () => {
+  <InfiniteCarousel
+    breakpoints={[
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+    ]}
+    dots={true}
+    showSides={true}
+    sidesOpacity={0.5}
+    sideSize={0.1}
+    slidesToScroll={4}
+    slidesToShow={4}
+    scrollOnDevice={true}
+  >
+    <div>
       <img
-        src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
-        alt=" 1"
-        className="h-full w-full object-cover"
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=55b64e&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
       />
+    </div>
+    <div>
       <img
-        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-        alt=" 2"
-        className="h-full w-full object-cover"
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=904098&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
       />
+    </div>
+    <div>
       <img
-        src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
-        alt=" 3"
-        className="h-full w-full object-cover"
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=ef4d9c&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
       />
-    </Carousel>
-  );
-}
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=00f3d1&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=00ffff&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=ee1f34&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=91b4c0&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=ff6347&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=ebbfbf&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=def1f9&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=cdf2c6&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=9fa616&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=2c4caa&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=44e3e1&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=ff6666&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=94e1e3&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=29083c&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=ffff99&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=616161&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        src="https://placeholdit.imgix.net/~text?txtsize=20&bg=ed7ebe&txtclr=ffffff&txt=215%C3%97215&w=215&h=215"
+      />
+    </div>
+  </InfiniteCarousel>;
+};
+
+export default CarouselDiv;

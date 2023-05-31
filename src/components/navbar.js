@@ -1,5 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { useNavigate } from "react-router-dom";
 
 const navigation = [
   { name: "Home", href: "#Logo", current: false },
@@ -11,10 +12,15 @@ const navigation = [
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
+
 export default function Navbar() {
+  const navigate = useNavigate();
+
   function LanguageChange() {
     console.log("Sprache geändert");
+    navigate("/english");
   }
+
   return (
     <Disclosure as="nav">
       {({ open }) => (

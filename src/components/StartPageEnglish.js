@@ -1,8 +1,8 @@
-import { deutschText } from "../textdaten";
-export const Startpage = () => {
+import { englishText } from "../textdaten";
+export const StartPageEnglish = () => {
   return (
     <>
-      {deutschText.map((x) => {
+      {englishText.map((x) => {
         return true ? (
           <div id={x.id} className={`Text${x.id}`}>
             {x.text}

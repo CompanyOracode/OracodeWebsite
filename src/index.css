@@ -33,7 +33,7 @@ code {
 
 .Text11 {
   position: absolute;
-  width: 469px;
+  width: 550px;
   height: 468px;
   left: 119px;
   top: 270px;
@@ -484,4 +484,17 @@ code {
   text-align: center;
 
   color: #000000;
+}
+
+.carousel {
+  position: relative;
+  width: 98%;
+  height: auto;
+  margin-right: 20px;
+  margin-top: 1405px;
+  margin-left: 50px;
+  float: right;
+
+  background: #d9d9d9;
+  border-radius: 30px;
 }
