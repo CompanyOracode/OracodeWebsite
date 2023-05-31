@@ -349,3 +349,139 @@ code {
   margin-right: 90px;
   width: 350px;
 }
+
+.Logos {
+ position: absolute;
+ width: 100%;
+ top: 2838px;
+ flex-wrap: wrap;
+
+
+ display: flex;
+ justify-content: space-between;
+}
+
+.JSLogo {
+position: relative;
+width: 200px;
+height: 200px;
+margin-left: 81px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+background: #EAC02C;
+border-radius: 30px;
+}
+
+.JSLogoText {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+
+
+color: #000000;
+
+}
+
+.CSSLogo {
+  position: relative;
+width: 200px;
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+background: linear-gradient(270deg, #3D99EE 0%, #174B7B 100%);
+border-radius: 30px;
+
+}
+
+.CSSLogoText {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.HtmlLogo {
+  position: relative;
+width: 200px;
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+background: linear-gradient(270deg, #D85F2B 0%, #B46A4A 0.01%, #EB7C4C 0.02%, #B04111 100%);
+border-radius: 30px;
+
+}
+
+.HtmlLogoText {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.PyLogo {
+  position: relative;
+width: 200px;
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+background: linear-gradient(316.06deg, #EAC02C 25.21%, #3D99EE 79.23%);
+border-radius: 30px;
+
+}
+
+.PyLogoText {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #000000;
+}
+
+.CLogo {
+  position: relative;
+width: 200px;
+height: 200px;
+margin-right: 91px;
+background: #9741BF;
+border-radius: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.CLogoText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  
+  color: #000000;
+  }
