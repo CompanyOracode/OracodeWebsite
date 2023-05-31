@@ -1,6 +1,6 @@
 export default function Logos() {
     return (
-        <div className="Logos">
+        <div className="Logos">np
             <div className="JSLogo">
                 <h1 className="JSLogoText">
                     Js
