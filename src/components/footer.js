@@ -34,7 +34,7 @@ export const Footer = () => {
     },
   ];
   return (
-    <div className="footer">
+    <div id="footer" className="footer">
       <div className="FooterUeberschriften">
         {footerUeberschrift.map((x) => {
           return true ? <div className="FooterInhalt">{x.text}</div> : null;

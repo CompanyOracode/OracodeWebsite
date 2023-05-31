@@ -2,16 +2,15 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Home", href: "#", current: false },
-  { name: "Warum Oracode", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Impressum", href: "#", current: false },
+  { name: "Home", href: "#Logo", current: false },
+  { name: "Warum Oracode", href: "#16", current: false },
+  { name: "Projects", href: "#121", current: false },
+  { name: "Impressum", href: "#footer", current: false },
 ];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
-
 export default function Navbar() {
   function LanguageChange() {
     console.log("Sprache geändert");
@@ -29,11 +28,13 @@ export default function Navbar() {
                     className="block h-12 w-auto lg:hidden"
                     src="Oracode-Logo-Mobile.png" // Mobile Logo
                     alt="Your Company"
+                    id="Logo"
                   />
                   <img
                     className="hidden h-20 w-auto lg:block"
                     src="Oracode-Logo-Desktop.png" // Desktop Logo
                     alt="Your Company"
+                    id="Logo"
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
@@ -82,7 +83,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Disclosure.Panel className="block">
+          <Disclosure.Panel className="block w-full fixed z-50 bg-opacity-50">
             <div className="space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
                 <Disclosure.Button

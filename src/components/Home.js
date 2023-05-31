@@ -1,8 +1,9 @@
 import Navbar from "./navbar";
 import { Startpage } from "./StartPage";
 import { Footer } from "./footer";
-import Logos from "./Logos"; 
+import Logos from "./Logos";
 import CarouselDiv from "./Carousel";
+import ScrollButton from "./ScrollButton";
 
 export const Home = () => {
   return (
@@ -10,8 +11,9 @@ export const Home = () => {
       <Navbar />
       <Startpage />
       <Footer />
-      <Logos/>
-      <CarouselDiv/>
+      <Logos />
+      <CarouselDiv />
+      <ScrollButton />
     </>
   );
 };
